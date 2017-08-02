@@ -21,11 +21,13 @@ npm install -g <package-name>(For installing global packages EG: CLI)
 cd <module-bundler>
 npm install (to Install all packages in package.json)
 webpack
+
 ```
 
-3) Testing
+3)Testing
 ```
 cd <testing>
 npm install
 jasmine
+
 ```
