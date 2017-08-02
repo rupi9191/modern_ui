@@ -10,3 +10,6 @@ a {
 .heading {
   color: #fff;
 }
+.adjust {
+  margin-top: -50px !important;
+}
