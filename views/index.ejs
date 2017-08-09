@@ -167,7 +167,13 @@
     <div id="step" class="step slide" data-x="-1000" data-y="-1500">
         <q>
             <h1 class="heading">Modern Front-End Development</h1>
-            <p style="float:right">By Rupesh</p>
+            <p style="float:right">
+              By Rupesh
+              <a href="https://github.com/rupi9191/modern_ui" target="_blank">
+                <img src="http://arcaneiceman.github.io/img/mark-github-256.png" style="width:50px;height:50px"/>
+              </a>
+            </p>
+             
         </q>
     </div>
 
@@ -186,37 +192,51 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
     -->
+      
       <div class="step slide" data-x="0" data-y="-1500">
-
-          <q>
-              <h1 class="heading">What is JavaScript?</h1>
-              <p>
-                  <span style="font-size:30px">
-                        <strong>JavaScript</strong> is a cross-platform, 
-                        object-oriented scripting language. It is a small and lightweight language. 
-                        Inside a host environment (for example, a web browser), JavaScript can be connected to the objects
-                        of its environment to provide programmatic control over them.
-                   </span>
-              </p>
-          </q>
-    </div>
-
-  
-      <div class="step slide" data-x="1000" data-y="-1500">
-         <q>
+         <q class="adjust">
             <p class="heading">Terms you hear in Front-End Development</p>
             <ol style="font-size:30px;display:inline-block">
                 <li>SPA</li>
                 <li>ECMA Script(ES6, ES7 ...)</li>
                 <li>NodeJS</li>
+                <li>PWA</li>
                 <li>UI Frameworks/ Libraries</li>
-                <li>Module Loaders</li>
-                <li>Module Bundlers Eg: Webpack, Gulp, Grunt</li>
+                <li>Module Bundlers/ Task Runners Eg: Webpack, Gulp, Grunt</li>
                 <li>Service Workers</li>
             </ol>
         </q>
     </div>
-    <div class="step slide" data-x="2000" data-y="-1500">
+    <div class="step slide" data-x="1000" data-y="-1500">
+         <q class="adjust">
+            <p class="heading">SPA...?</p>
+            <p style="font-size:30px">
+                 Single-Page Applications (SPAs) are Web apps that load a single HTML page and dynamically update that page as the user interacts with the app. SPAs use AJAX and HTML5 to create fluid and responsive Web apps, without constant page reloads. However, this means much of the work happens on the client side, in JavaScript.
+            </p>
+        </q>
+    </div>
+        <div class="step slide" data-x="2000" data-y="-1500">
+         <q class="adjust">
+            <p class="heading">ECMA/ES...?</p>
+            <p style="font-size:30px">
+                ES is a trademarked scripting-language specification standardized by ECMA International.It was based on JavaScript, which now tracks ECMAScript. It is commonly used for client-side scripting on the World Wide Web and is increasingly being used for writing server applications and services using Node.js. Other implementations of ECMAScript include JScript and ActionScript
+            </p>
+        </q>
+    </div>
+        <div class="step slide" data-x="3000" data-y="-1500">
+         <q class="adjust">
+            <p class="heading">NodeJS?</p>
+            <p style="font-size:30px">
+                Node.js® is a JavaScript runtime built on Chrome's V8 
+                JavaScript engine. Node.js uses an event-driven, 
+                non-blocking I/O model that makes it lightweight 
+                and efficient. Node.js' package ecosystem, npm, is 
+                the largest ecosystem of open source libraries in the world.
+            </p>
+            <p><strong>Site:</strong>&emsp; <a target="_blank" href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+        </q>
+    </div>
+    <div class="step slide" data-x="4000" data-y="-1500">
          <q>
             <p class="heading">Types of rendering</p>
            <ul style="font-size:30px;display:inline-block">
@@ -227,7 +247,7 @@
         </q>
     </div>
 
-    <div class="step slide" data-x="3000" data-y="-1500">
+    <div class="step slide" data-x="5000" data-y="-1500">
           <q>
             <img src="images/rendering.jpg" alt="">
            </q>
@@ -463,7 +483,7 @@
                 <li>
                     <span style="color:#fff;font-weight:bold">Reason:</span>
                     <span>
-                        Mind-blowing paradigm shift, breaks a lot of dogmas as old as the web and does it amazingly. Better separation of concerns than traditional approach: instead of separating by technology (HTML/CSS/JavaScript) you break things up by their functionality (cohesive components). Your UI is a pure function of your state.
+                        Framework makes life easy. Mind-blowing paradigm shift, breaks a lot of dogmas as old as the web and does it amazingly.  
                     </span>
                 </li>
                 <li>
@@ -479,7 +499,7 @@
             <ul style="font-size: 30px">
                 <li>
                     <span style="color:#fff;font-weight:bold">Problem:</span>
-                    <span>Now that you have proper modules, you want them to be self-contained, reusable pieces of software that you can move around. Component styles should be as portable as the components themselves.</span>
+                    <span>Now that you have proper modules, you want them to be self-contained, reusable pieces of software that you can move around.</span>
                 </li>
                 <li>
                     <span style="color:#fff;font-weight:bold">Solution:</span>
@@ -489,7 +509,7 @@
                     <span style="color:#fff;font-weight:bold">Reason:</span>
                     <span>
                         As much as I love inline styles (and use them extensively), I must admit that they’re rather 
-                        limited. Yes, it’s totally OK to use inline styles in React, but you can’t target pseudo-class selectors (like :hover) with them, which is a deal-breaker in many cases.
+                        limited.
                     </span>
                 </li>
                 <li>
