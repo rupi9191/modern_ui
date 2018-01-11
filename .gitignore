@@ -1,4 +1,9 @@
+package-lock.json
+demos/module-bundler/package-lock.json
+demos/testing/package-lock.json
+demos/package-manager/package-lock.json
 node_modules
+demos/module-bundler/node_modules
+demos/tesing/node_modules
 demos/package-manager/node_modules
-demos/testing/node_modules
-demos/module-bundler/webpack
+demos/transpiler/node_modules

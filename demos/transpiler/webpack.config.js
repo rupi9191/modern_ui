@@ -9,7 +9,7 @@ const config = {
         filename: '[name]-bundle.js'
     },
 	 plugins: [
-		new webpack.optimize.UglifyJsPlugin()
+		//new webpack.optimize.UglifyJsPlugin()
 	],
     module: {
         loaders: [
@@ -18,7 +18,7 @@ const config = {
                 include: [
                     Path.resolve(process.cwd(), 'client/js')
                 ],
-                exclude: 'node_modules',
+                exclude: Path.resolve(process.cwd(), 'node_modules'),
                 loader: 'babel',
                 query: {
                     presets: ['es2015']
